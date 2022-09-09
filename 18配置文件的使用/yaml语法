@@ -1,0 +1,22 @@
+# 存储普通的key-value
+# yaml对大小写敏感
+name: li
+
+# 存储对象
+student1:
+  name: li
+  age: 3
+
+#行内写法
+  {student2:{name:li,age:3}}
+
+# 列表    有的 YAML 文件（不管和 Ansible 有没有关系）开始行都应该是---。这是 YAML 格式的一部分，是一个文件的开始。
+---
+#一个美味水果的列表
+- 苹果
+- 橙子
+- 草莓
+- 芒果
+
+#行内写法
+pets2:[cat,dog,pig]

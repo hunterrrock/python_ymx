@@ -65,13 +65,13 @@ except KeyError as e:
 # 读取data.txt文件中的内容，再写入：python你好;
 # 读取文件，如果文件存在则进行写入，不存在则捕获异常
 try:
-    with open('data.txt', 'r', encoding='utf-8') as f:
+    with open('yaml语法.txt', 'r', encoding='utf-8') as f:
         res = f.read()
 except Exception as e:
     print("该文件不存在")
     print("错误：", e)
 else:
-    with open('data.txt', 'w', encoding='utf-8') as f:
+    with open('yaml语法.txt', 'w', encoding='utf-8') as f:
         f.write('hello,python')
 
 # ----------------------------finally的用法-------------------------------

@@ -8,7 +8,7 @@ unittest中测试用例的编写规范
     第二步： 调用被测的功能函数
     第三步： 断言
 """
-from y_13unittest.login_func import login_check
+from login_func import login_check
 import unittest
 
 cases =[

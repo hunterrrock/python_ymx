@@ -2,7 +2,7 @@
 
 """
 import unittest
-from y_13unittest.login_func import login_check
+from login_func import login_check
 from unittestreport import ddt, list_data
 
 # cases列表中有多少个元素就会执行多少条用例

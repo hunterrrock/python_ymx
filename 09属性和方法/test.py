@@ -26,7 +26,7 @@
 # ------------------私有属性和私有方法--------------------------
 class MyClass:
     _attr = 100
-    __name = 'yan'
+    __name = 'yan.ini'
 
     def __get_info(self):
         print("------get_info")

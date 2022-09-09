@@ -14,7 +14,7 @@
 
 在代码执行的过程中给类添加属性
 1：通过类名.属性名设置属性 (部分场景不适用）如下列的代码案例
-MyClass.name = 'yan'
+MyClass.name = 'yan.ini'
 2:
 setattr(类名，属性名，属性值）
 setattr(对象，属性名，属性值）  --》给对象设置实例属性
@@ -42,11 +42,11 @@ class MyClass:
 
 
 key = 'name'
-value = 'yan'
+value = 'yan.ini'
 setattr(MyClass, key, value)
 # -------------------------动态设置类属性案例---------------------------
 # 这种场景很难用类名.属性的方法设置属性
-data = {'name': 'yan', 'age': 10, 'gender': '男'}
+data = {'name': 'yan.ini', 'age': 10, 'gender': '男'}
 for k, v in data.items():
     setattr(MyClass, k, v)
 
@@ -55,7 +55,7 @@ print(MyClass.__dict__)
 
 # -------------------------动态设置对象的属性---------------------------
 m = MyClass()
-data = {'name': 'yan', 'age': 10, 'gender': '男'}
+data = {'name': 'yan.ini', 'age': 10, 'gender': '男'}
 for k, v in data.items():
     setattr(m, k, v)
 # 查出这个对象的所有的属性
@@ -69,7 +69,7 @@ print(m.gender)
 # ------------------------动态获取属性-----------------------------
 class MyClass2:
     attr = 100
-    name = 'yan'
+    name = 'yan.ini'
     age = 10
 
 
@@ -101,7 +101,7 @@ print(dic)
 
 class Mytest:
     age = 10
-    name = 'yan'
+    name = 'yan.ini'
     gender = '女'
 
 

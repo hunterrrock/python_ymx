@@ -1,0 +1,6 @@
+[logging]
+name = mylog
+level = DEBUG
+filename = logyy.log
+sh_level = DEBUG
+fh_level = DEBUG

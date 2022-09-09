@@ -1,0 +1,9 @@
+---
+- data:
+    user: python35
+    pwd: lemonban
+  expected:
+    code: 0
+    msg: 测试通过
+  title: 登录成功
+  case_id: 1

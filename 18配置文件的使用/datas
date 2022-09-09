@@ -1,0 +1,20 @@
+{
+  "logging": {
+    "name": "mylog",
+    "level": "DEBUG",
+    "filename": "log.log",
+    "sh_level": "DEBUG",
+    "fh_level": "DEBUG"
+  },
+  "mysql": {
+    "port": 3306,
+    "host": "123.001.01.01",
+    "name": "db"
+
+  },
+  "datas": [
+    null,
+    true,
+    false
+  ]
+}

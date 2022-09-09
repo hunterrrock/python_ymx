@@ -1,0 +1,13 @@
+[logging]
+name = mylog
+level = DEBUG
+filename = log.log
+fh_level = DEBUG
+sh_level = DEBUG
+
+[mysql]
+port = 3306
+name = yanyan
+status = True
+float = 1.24
+
